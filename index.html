@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Atom</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+    <div class="content">
+        <p class="counterName">ATOM Counter</p>
+        <p class="counter" id="counter">0</p>
+        <div class="blockButton">
+            <button class="withdraw" id="withdraw">-</button>
+            <button class="addition" id="addition">+</button>
+        </div>
+        <div class="blockIncrement" id="blockIncrement">
+            <p class="textIncrement" id="textIncrement">Ajouter/Soutraire par :</p>
+            <input type="number" class="inputNumber" id="inputNumber" value="1" name="" min="-999" max="999">
+        </div>
+        <button class="reset" id="reset">Réinitialiser</button>
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
